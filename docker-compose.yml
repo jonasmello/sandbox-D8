@@ -7,7 +7,7 @@ web:
    links:
      - db
    volumes:
-     - ./app:/app
+     - ./app:/app1
 
 db:
   container_name: sandroboxdb
